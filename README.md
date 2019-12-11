@@ -9,15 +9,14 @@ git submodule update --recursive --remote
 ```
 If you face any issues in pulling them, please lookup the documentation/help for git submodules.
 
-**Each of these submodules have detailed documentation.** Click on the links below to open the documentation. Alternatively, you can open the README.md file of each submodule in a browser.
+**Each of these submodules have detailed documentation and separate LICENSE files.** Click on the links below to open the documentation. Alternatively, you can open the README.md file of each submodule in a browser.
 
 ### Submodules
 
-- [**pytorch-jacinto-ai-devkit**](./pytorch-jacinto-ai-devkit/README.md): PyTorch (deep learning framework) based training scripts, quantization tools.
-- [**pytorch-mmdetection**](./pytorch-mmdetection/README.md): PyTorch (deep learning framework) based Object Detection training
-- [**caffe-jacinto**](./caffe-jacinto/README.md) and [**caffe-jacinto-mdoels**](./caffe-jacinto-mdoels/README.md): caffe based training tools for sparse CNN models.
-- [**acf-jacinto**](./acf-jacinto/README.md) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
-
+- [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-mdoels**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): caffe based training tools for sparse CNN models.
+- [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
+- [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch (deep learning framework) based training scripts, quantization tools.
+- [**pytorch-mmdetection**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-mmdetection/about/): PyTorch (deep learning framework) based Object Detection training
 
 ### License
 
