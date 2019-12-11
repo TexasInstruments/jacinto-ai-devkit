@@ -1,0 +1,15 @@
+[submodule "pytorch-jacinto-ai-devkit"]
+	path = pytorch-jacinto-ai-devkit
+	url = https://git.ti.com/git/jacinto-ai-devkit/pytorch-jacinto-ai-devkit.git
+[submodule "pytorch-mmdetection"]
+	path = pytorch-mmdetection
+	url = https://git.ti.com/git/jacinto-ai-devkit/pytorch-mmdetection.git
+[submodule "caffe-jacinto"]
+	path = caffe-jacinto
+	url = https://git.ti.com/git/jacinto-ai-devkit/caffe-jacinto.git
+[submodule "caffe-jacinto-models"]
+	path = caffe-jacinto-models
+	url = https://git.ti.com/git/jacinto-ai-devkit/caffe-jacinto-models.git
+[submodule "acf-jacinto"]
+	path = acf-jacinto
+	url = https://git.ti.com/git/jacinto-ai-devkit/acf-jacinto.git
