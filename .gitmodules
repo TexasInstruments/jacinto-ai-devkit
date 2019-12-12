@@ -1,20 +1,25 @@
 [submodule "acf-jacinto"]
 	path = acf-jacinto
 	url = https://git.ti.com/git/jacinto-ai-devkit/acf-jacinto.git
+	update = rebase
 	branch = .
 [submodule "caffe-jacinto"]
 	path = caffe-jacinto
 	url = https://git.ti.com/git/jacinto-ai-devkit/caffe-jacinto.git
+	update = rebase
 	branch = .
 [submodule "caffe-jacinto-models"]
 	path = caffe-jacinto-models
 	url = https://git.ti.com/git/jacinto-ai-devkit/caffe-jacinto-models.git
+	update = rebase
 	branch = .
 [submodule "pytorch-jacinto-ai-devkit"]
 	path = pytorch-jacinto-ai-devkit
 	url = https://git.ti.com/git/jacinto-ai-devkit/pytorch-jacinto-ai-devkit.git
+	update = rebase
 	branch = .
 [submodule "pytorch-mmdetection"]
 	path = pytorch-mmdetection
 	url = https://git.ti.com/git/jacinto-ai-devkit/pytorch-mmdetection.git
+	update = rebase
 	branch = .
