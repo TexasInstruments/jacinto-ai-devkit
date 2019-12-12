@@ -5,7 +5,7 @@ This repository provides various training tools for AI, including deep learning,
 ### Obtaining the code
 After cloning this repository, execute the following command to pull the submodules.
 ```
-git submodule update --recursive --remote
+./git_submodule_update.sh
 ```
 If you face any issues in pulling them, please lookup the documentation/help for git submodules.
 
