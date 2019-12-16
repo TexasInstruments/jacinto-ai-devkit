@@ -2,7 +2,9 @@
 
 This repository provides various training tools for AI, including Deep Learning, traditional Machine Learning and Computer Vision. This repository does not contain any code, but has submodule links that point to the code. 
 
-Embedded AI, especially Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. We show several low complexity Deep Learning models that make  Inference on Embedded Low Power Platforms practical. Some the models and examples that we publish have been tested on Jacinto platforms - but they are generic and can be used on a variety of Embedded Platforms. This code is primarily intended for learning and research. 
+Embedded AI, especially Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. We show several low complexity Deep Learning models that make  Inference on Low Power Embedded Platforms practical. We also have examples of Calibration/Training to make models Quantization friendly.
+
+Some the models and examples that we publish have been tested on Jacinto platforms - but they are also generic and can be used on a variety of Embedded Platforms. This code is primarily intended for learning and research. 
 
 ### Contents
 - **PyTorch** based training of Object Detection, Semantic Segmentation (and a variety of similar Pixel2Pixel tasks), Multi-Task Learning, **Calibration for Quantization**, **Quantization Aware Training**.
@@ -16,7 +18,7 @@ After cloning this repository, execute the following command to pull the submodu
 ```
 ./git_submodule_update.sh
 ```
-If you face any issues in pulling them, please lookup the documentation/help for git submodules.
+If there is any issue with the above script, you can visit [https://git.ti.com/jacinto-ai-devkit](https://git.ti.com/jacinto-ai-devkit ) and get the URLs to manually clone/pull the respositories.
 
 
 ### Submodules
