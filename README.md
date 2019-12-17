@@ -4,7 +4,7 @@ This repository provides various training tools for AI, including Deep Learning,
 
 Embedded AI, especially Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. We show several low complexity Deep Learning models that make  Inference on Low Power Embedded Platforms practical. We also have examples of Calibration/Training to make models Quantization friendly.
 
-Some the models and examples that we publish have been tested on Jacinto platforms - but they are also generic and can be used on a variety of Embedded Platforms. This code is primarily intended for learning and research. 
+**Several of these models have been verified to work on [TI's Jacinto Automotive Processors](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html)**  - but they are also generic and can be used on a variety of Embedded Platforms. This code is primarily intended for learning and research. 
 
 ### Contents
 - **PyTorch** based training of Object Detection, Semantic Segmentation (and a variety of similar Pixel2Pixel tasks), Multi-Task Learning, **Calibration for Quantization**, **Quantization Aware Training**.
@@ -28,6 +28,9 @@ If there is any issue with the above script, you can visit [https://git.ti.com/j
 - [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-mdoels**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): caffe based training tools for sparse CNN models.
 - [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
 
+#### **Issue Tracker**: 
+- While you can file issues using the issues tab in this repository, **e2e** may be more closely monitored and tracked: [https://e2e.ti.com/support/j721e/f/1026/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/j721e/f/1026/tags/jacinto_2D00_ai_2D00_devkit).<br>
+- If you are filing an issue via e2e, kindly include **jacinto-ai-devkit** in the tags (at the end of the page as you create a new issue) so that we get notified quickly.
 
 ### Notes: 
 - **Each of those submodules have detailed documentation and separate LICENSE files.** Click on the links to open the documentation. 
