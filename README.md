@@ -26,8 +26,8 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 - [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
 
 #### **Issue Tracker**: 
-- While you can file issues using the issues tab in this repository, **e2e** may be more closely monitored and tracked: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit).<br>
-- If you are filing an issue via e2e, the part number should be filled in as **TDA4VM**. Also, kindly include **jacinto-ai-devkit** in the tags (at the end of the page as you create a new issue) so that we get notified quickly. 
+- You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/j721e/f/1026/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/j721e/f/1026/tags/jacinto_2D00_ai_2D00_devkit).<br>
+- The part number should be filled in as **TDA4VM**. Also, kindly include **jacinto-ai-devkit** in the tags (at the end of the page as you create a new issue) so that we get notified quickly. 
 - If you do not get a reply within two days, you can contact us at: jacinto-ai-devkit@list.ti.com
 
 ### Notes: 
