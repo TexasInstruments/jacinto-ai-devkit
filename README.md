@@ -4,14 +4,7 @@ This repository provides various training tools for AI, including Deep Learning,
 
 Embedded AI, especially Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. We show several low complexity Deep Learning models that make  Inference on Low Power Embedded Platforms practical. We also have examples of Calibration/Training to make models Quantization friendly.
 
-**Several of these models have been verified to work on [TI's Jacinto Automotive Processors](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html)**  - but they are also generic and can be used on a variety of Embedded Platforms. This code is primarily intended for learning and research. 
-
-### Contents
-- **PyTorch** based training of Object Detection, Semantic Segmentation (and a variety of similar Pixel2Pixel tasks), Multi-Task Learning, **Calibration for Quantization**, **Quantization Aware Training**.
-- **TensorFlow2.0** based training and quantization examples (coming soon...)
-- **Caffe** based training of Object Detection, Semantic Segmentation.
-- **HOG/Adaboost** based training for Object Detection - i.e. using traditional ML.
- 
+**Several of these models have been verified to work on [TI's Jacinto Automotive Processors](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html)**  - but they are also generic and can be used on a variety of Embedded Platforms. This code is primarily intended for learning and research.  
 
 ### Obtaining the code
 After cloning this repository, execute the following command to pull the submodules.
@@ -23,9 +16,10 @@ If there is any issue with the above script, you can visit [https://git.ti.com/j
 
 ### Submodules
 
-- [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch (deep learning framework) based training scripts, quantization tools.
-- [**pytorch-mmdetection**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-mmdetection/about/): PyTorch (deep learning framework) based Object Detection training
-- [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-mdoels**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): caffe based training tools for sparse CNN models.
+- [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch based training of Image Classification, Semantic Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.
+- [**pytorch-mmdetection**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-mmdetection/about/): PyTorch based Object Detection training (coming soon...)
+- **TensorFlow2.0** based training and quantization examples (coming soon...)
+- [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-mdoels**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): Caffe based training tools for sparse CNN models.
 - [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
 
 #### **Issue Tracker**: 
