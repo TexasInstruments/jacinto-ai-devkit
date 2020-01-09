@@ -1,4 +1,11 @@
 # Jacinto AI DevKit
+Training Tools For Embedded AI Development.
+
+###### Notice: 
+- If you have not visited our landing page in github, please do so: [https://github.com/TexasInstruments/jacinto-ai-devkit](https://github.com/TexasInstruments/jacinto-ai-devkit)
+- **Issue Tracker for jacinto-ai-devkit:** You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit). While creating a new issue kindly include **jacinto-ai-devkit** in the tags (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+- **Issue Tracker for TIDL:** [https://e2e.ti.com/support/processors/f/791/tags/TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL). Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
+- If you do not get a reply within two days, please contact us at: jacinto-ai-devkit@list.ti.com
 
 This repository provides various training **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. This github repository does not contain any code, but has submodule links that point to the code. 
 
@@ -25,10 +32,6 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 - [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-mdoels**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): Caffe based training tools for sparse CNN models.
 - [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
 
-#### **Issue Tracker**: 
-- You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit).<br>
-- The part number should be filled in as **TDA4VM**. Also, kindly include **jacinto-ai-devkit** in the tags (at the end of the page as you create a new issue) so that we get notified quickly. 
-- If you do not get a reply within two days, you can contact us at: jacinto-ai-devkit@list.ti.com
 
 ### Notes: 
 - **Each of those submodules have detailed documentation and separate LICENSE files.** Click on the links to open the documentation. 
