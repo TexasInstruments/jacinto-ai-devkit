@@ -29,7 +29,7 @@ Deep Learning Examples for Jacinto 7 family of devices - e.g. [TDA4VM](http://ww
 - **TensorFlow2.0** based training and quantization examples **(coming soon...)**
 
 Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x)
-- [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-mdoels**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): Caffe based training tools for sparse CNN models.
+- [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-models**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): Caffe based training tools for sparse CNN models.
 - [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
 
 
