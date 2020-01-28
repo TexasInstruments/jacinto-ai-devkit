@@ -24,7 +24,7 @@ If there is any issue with the above script, you can visit [https://git.ti.com/j
 ### Submodules
 
 Deep Learning Examples for Jacinto 7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
-- [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch based training of Image Classification, Semantic Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.
+- [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.
 - [**pytorch-mmdetection**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-mmdetection/about/): PyTorch based Object Detection training **(coming soon...)**
 - **TensorFlow2.0** based training and quantization examples **(coming soon...)**
 
@@ -40,7 +40,9 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 
 
 ### What is New: 
-- [2020-Jan-6] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.
+- [2020-Jan-28] pytorch-jacinto-ai-devkit: Documentation and results for Depth Estimation has been added.<br>
+- [2020-Jan-06] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.
+
 
 ### License
 
