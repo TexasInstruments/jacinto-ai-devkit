@@ -23,10 +23,10 @@ If there is any issue with the above script, you can visit [https://git.ti.com/j
 
 ### Submodules
 
-Deep Learning Examples for Jacinto 7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
+Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
 - [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.
-- [**pytorch-mmdetection**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-mmdetection/about/): PyTorch based Object Detection training. We have forked [mmdetection](https://github.com/open-mmlab/mmdetection) and added some additional features such as model export for SSD Object Detector (into a format that Jacinto7 TIDL can understand), support for [CenterNet(ObjectsAsPoints)](https://arxiv.org/abs/1904.07850) Object Detector etc. We plan to make this available soon. In the mean while you can get started with training of SSD Object Detector on [mmdetection](https://github.com/open-mmlab/mmdetection). **(coming soon...)**
-- **TensorFlow2.0** based training and quantization examples **(coming soon...)**
+- PyTorch based **Object Detection** training - **(coming later...)**. In the mean while you can train the SSD Object detector using [mmdetection](https://github.com/open-mmlab/mmdetection) and provide the model to Jacinto7 TIDL in a format that it specifies.
+- **TensorFlow2.0** based quantization examples - **(coming later...)**. In the mean while, we suggest that you watch the development of [Tensorflow model optimization toolkit](https://www.tensorflow.org/model_optimization).
 
 Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x)
 - [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-models**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): Caffe based training tools for sparse CNN models.
