@@ -13,6 +13,9 @@ Embedded AI, especially Embedded Inference of Deep Learning models is quite chal
 
 **Several of these models have been verified to work on [TI's Jacinto Automotive Processors](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html)**. These tools and software are primarily intended as examples for learning and research.  
 
+### Documentation
+Detailed documentation is provided for each of the components. Please browse using links provided in the "Submodules" section below.
+
 ### Obtaining the code
 After cloning this repository, execute the following command to pull the submodules.
 ```
