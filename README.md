@@ -1,8 +1,9 @@
 # Jacinto AI DevKit
-Training Tools For Embedded AI Development.
+Training & Quantization Tools For Embedded AI Development.
 
 ###### Notice: 
 - If you have not visited our landing page in github, please do so: [https://github.com/TexasInstruments/jacinto-ai-devkit](https://github.com/TexasInstruments/jacinto-ai-devkit)
+- Some of the older modules such as caffe-jacinto, caffe-jacinto-models & acf-jacito are no longer included as submodules of this git repository. You can git clone/pull them separately using the links given below.
 - **Issue Tracker for jacinto-ai-devkit:** You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit). While creating a new issue kindly include **jacinto-ai-devkit** in the tags (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 - **Issue Tracker for TIDL:** [https://e2e.ti.com/support/processors/f/791/tags/TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL). Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 - If you do not get a reply within two days, please contact us at: jacinto-ai-devkit@list.ti.com
@@ -21,20 +22,31 @@ After cloning this repository, execute the following command to pull the submodu
 ```
 ./git_submodule_update.sh
 ```
-If there is any issue with the above script, you can visit [https://git.ti.com/jacinto-ai-devkit](https://git.ti.com/jacinto-ai-devkit ) and get the URLs to manually clone/pull the respositories.
+If there is any issue with the above script, you can use the URLs given below to manually clone/pull the respositories.
 
 
 ### Submodules
 
-Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)
-- [**pytorch-jacinto-ai-devkit**](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/): PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.
-- PyTorch based **Object Detection** training - **(coming later...)**. In the mean while you can train the SSD Object detector using [mmdetection](https://github.com/open-mmlab/mmdetection) and provide the model to Jacinto7 TIDL in a format that it specifies.
-- **TensorFlow2.0** based quantization examples - **(coming later...)**.
+Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)<br>
+- **pytorch-jacinto-ai-devkit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.<br>
+-- Documentation: [link](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/about/)<br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai-devkit/pytorch-jacinto-ai-devkit/)<br>
 
-Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x)
-- [**caffe-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/) and [**caffe-jacinto-models**](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/): Caffe based training tools for sparse CNN models.
-- [**acf-jacinto**](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/) - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)
+- PyTorch based **Object Detection** training - **(coming later...)**. In the mean while you can train the SSD Object detector using [mmdetection](https://github.com/open-mmlab/mmdetection) and provide the model to Jacinto7 TIDL in a format that it specifies.<br>
+- **TensorFlow2.0** based quantization examples - **(coming later...)**.<br>
 
+Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below.<br>
+- **caffe-jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models.<br>
+-- Documentation: [link](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/about/)<br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto/)<br>
+
+- **caffe-jacinto-models**: Scripts and examples for training sparse CNN models for Image Classification, Object Detection and Semantic Segmentation.<br>
+-- Documentation: [link](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/about/)<br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai-devkit/caffe-jacinto-models/)<br>
+
+- **acf-jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)<br>
+-- Documentation: [link](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/about/)<br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai-devkit/acf-jacinto/)<br>
 
 ### Notes: 
 - **Each of those submodules have detailed documentation and separate LICENSE files.** Click on the links to open the documentation. 
