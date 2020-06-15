@@ -1,8 +1,8 @@
 [submodule "pytorch-jacinto-ai-devkit"]
 	path = pytorch-jacinto-ai-devkit
-	url = https://git.ti.com/git/jacinto-ai-devkit/pytorch-jacinto-ai-devkit.git
+	url = https://git.ti.com/git/jacinto-ai/pytorch-jacinto-ai-devkit.git
 	branch = master
 [submodule "pytorch-mmdetection"]
 	path = pytorch-mmdetection
-	url = https://git.ti.com/git/jacinto-ai-devkit/pytorch-mmdetection.git
+	url = https://git.ti.com/git/jacinto-ai/pytorch-mmdetection.git
 	branch = master
