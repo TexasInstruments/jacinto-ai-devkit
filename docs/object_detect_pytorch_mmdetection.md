@@ -38,25 +38,24 @@ Note: Jacinto7/TDA4 TIDL currently understands and is able to completely infer S
 - Test can be done by using the scripts ./scripts/test_main.py or ./scripts/test_dist.py
 - To enable quantization during test, the quantize flag in the config file being used must be a "truth value in Python" - i.e. a string or True or something like that. If quantize is commented out or if it is False, None etc, quantization will not be performed.
 
-## Results
+## Results & Model Zoo
 
-|Dataset    |Mode Arch        |Backbone Model |Backbone Stride|Resolution |Acc Float|Acc 8bit Calib|Acc 8bit QAT|GigaMACS|Est. Inf. Time (milli sec)*|Model Config File                      |
-|---------  |----------       |-----------    |-------------- |-----------|-------- |-------       |----------  |------- |-------------------------- |----------                             |
-|VOC2007    |SSD with FPN     |MobileNetV2    |32             |512x512    |76.1     |75.4          |75.4        |2.21    |                           |configs/jacinto_ai/ssd_mobilenet_fpn.py|
-|VOC2007    |SSD with FPN     |RegNet800MF    |32             |512x512    |79.7     |79.0          |79.5        |5.64    |                           |configs/jacinto_ai/ssd_regnet_fpn.py   |
-|VOC2007    |SSD with FPN     |ResNet50       |32             |512x512    |80.5     |77.0          |79.5        |27.1    |                           |configs/jacinto_ai/ssd_resnet_fpn.py   |
+#### Pascal VOC2007 Dataset
+- Train on Pascal VOC 2007+2012
+- Test on Pascal VOC 2007
+
+|Dataset    |Mode Arch        |Backbone Model |Backbone Stride|Resolution |Acc Float|Acc 8bit Calib|Acc 8bit QAT|GigaMACS|Est. Inf. Time (msec)*|Model Config File                       |Download |
+|---------  |----------       |-----------    |-------------- |-----------|-------- |-------       |----------  |------- |-----------------------|----------                             |---
+|VOC2007    |SSD with FPN     |MobileNetV2    |32             |512x512    |76.1     |75.4          |75.4        |2.21    |                       |configs/jacinto_ai/ssd_mobilenet_fpn.py|[link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200612-051942_ssd512_mobilenetv2_fpn) |
+|VOC2007    |SSD with FPN     |RegNet800MF    |32             |512x512    |79.7     |79.0          |79.5        |5.64    |                       |configs/jacinto_ai/ssd_regnet_fpn.py   |[link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200611-200124_ssd512_regnet800mf_fpn_bgr) |
+|VOC2007    |SSD with FPN     |ResNet50       |32             |512x512    |80.5     |77.0          |79.5        |27.1    |                       |configs/jacinto_ai/ssd_resnet_fpn.py   |[link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200614-234748_ssd512_resnet_fpn) |
 |.
-|VOC2007    |SSD              |VGG16          |32             |512x512    |79.8     |              |            |90.39   |                           |configs/pascal_voc/ssd512_voc0712.py   |
+|VOC2007    |SSD              |VGG16          |32             |512x512    |79.8     |              |            |90.39   |                       |configs/pascal_voc/ssd512_voc0712.py   |         |
 
-- Est. Inf. Time (milli sec)* on (Jacinto7/TDA4VM) platform 
+- *Estimated Inference Time in milli seconds on the Jacinto7/TDA4VM platform 
 - Acc Float: MeanAP50(mAP) Accuracy in percentage in this case.
 - Acc 8bit Calib: Same metric with 8bit quantization using PTQ/Calibration 
 - Acc Float: Same metric with QAT
-
-## Model Zoo
-- [ssd512_mobilenetv2_fpn](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200612-051942_ssd512_mobilenetv2_fpn) Float model
-- [ssd512_regnet800mf_fpn_bgr](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200611-200124_ssd512_regnet800mf_fpn_bgr) Float model
-- [ssd512_resnet50_fpn](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200614-234748_ssd512_resnet_fpn) Float model
 
 ## References
 
