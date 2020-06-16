@@ -54,9 +54,9 @@ Note: Jacinto7/TDA4 TIDL currently understands and is able to completely infer S
 - Acc Float: Same metric with QAT
 
 ## Model Zoo
-- [ssd512_mobilenetv2_fpn](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/20200612-051942_ssd512_mobilenetv2_fpn) Float model
-- [ssd512_regnet800mf_fpn_bgr](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/20200611-200124_ssd512_regnet800mf_fpn_bgr) Float model
-- [ssd512_resnet50_fpn](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/20200614-234748_ssd512_resnet_fpn) Float model
+- [ssd512_mobilenetv2_fpn](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200612-051942_ssd512_mobilenetv2_fpn) Float model
+- [ssd512_regnet800mf_fpn_bgr](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200611-200124_ssd512_regnet800mf_fpn_bgr) Float model
+- [ssd512_resnet50_fpn](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse/pytorch/vision/object_detection/mmdetection/ssd/20200614-234748_ssd512_resnet_fpn) Float model
 
 ## References
 
