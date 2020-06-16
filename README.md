@@ -53,6 +53,11 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 -- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
 
+### AI-Hub & ModelZoo
+
+We are in the process of building an AI-Hub & Model-Zoo that hosts **DeepLearning Models** and **Training/Quantization/Inference Examples** that are optimized for **speed, accuracy & fixed point quantization**. We shall also try to provide approximate inference times on the platforms that we have, so that you can make resonable judgements on which models provide the best **speed/accuracy tradeoff**. Start by browsing through the following sections.
+- [Object Detection using pytorch-mmdetection](./docs/object_detect_pytorch_mmdetection.md)
+
 ### Notes: 
 - **Each of those submodules have detailed documentation and separate LICENSE files.** Click on the links to open the documentation. 
 - If you click on one of the links above - it will navigate to a repository hosted in **https://git.ti.com/jacinto-ai**. From there, you can click on one of the tabs to get more information on that repository. 
