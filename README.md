@@ -32,9 +32,7 @@ If there is any issue with the above script, you can use the URLs given below to
 
 ### Model Zoo
 
-We are in the process of building an Model Zoo that hosts **DeepLearning Models** and **Training/Quantization/Inference Examples** that are optimized for **speed, accuracy & fixed point quantization**. 
-
-We shall also try to provide approximate inference times on the platforms, so that you can make resonable judgements on which models provide the best **speed/accuracy tradeoff**. 
+We are in the process of building an Model Zoo that hosts **Training/Quantization/Inference Examples** and **DeepLearning Models** that are optimized for **speed, accuracy & fixed point quantization**. 
 
 Start by browsing through the following sections.
 
@@ -51,20 +49,21 @@ Start by browsing through the following sections.
 ### Submodules
 
 Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)<br>
-- **pytorch-jacinto-ai-devkit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.<br>
--- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/)<br>
+- **Pytorch-Jacinto-AI-DevKit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.<br>
+-- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/)<br>
 
-- PyTorch based **Object Detection** training - **(coming later...)**. In the mean while you can train the SSD Object detector using [mmdetection](https://github.com/open-mmlab/mmdetection) and provide the model to Jacinto7 TIDL in a format that it specifies.<br>
+- **Jacinto-AI-MMDetection**: PyTorch based **Object Detection** training - **(coming soon...)**. In the mean while you can train the SSD Object detector using [mmdetection](https://github.com/open-mmlab/mmdetection) and provide the model to Jacinto7 TIDL in a format that it specifies.<br>
+
 - **TensorFlow2.0** based quantization examples - **(coming later...)**.<br>
 
 Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below.<br>
 - **caffe-jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models.<br>
--- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/about/)<br>
+-- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/)<br>
 
 - **caffe-jacinto-models**: Scripts and examples for training sparse CNN models for Image Classification, Object Detection and Semantic Segmentation.<br>
--- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/about/)<br>
+-- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/)<br>
 
 - **acf-jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)<br>
