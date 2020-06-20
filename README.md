@@ -30,22 +30,6 @@ Execute the following command to pull/update the submodules to get the latest ch
 If there is any issue with the above script, you can use the URLs given below to manually clone/pull the respositories.
 
 
-### Model Zoo
-
-We are in the process of building an Model Zoo that hosts **Training/Quantization/Inference Examples** and **DeepLearning Models** that are optimized for **speed, accuracy & fixed point quantization**. 
-
-Start by browsing through the following sections.
-
-**Jacinto-AI-MMDetection** - Several Object Detection Models - Training/Quantization/Testing
-- [**Jacinto-AI-MMDetection Model Zoo**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-mmdetection/browse/docs/jacinto_ai/jacinto_ai_object_detection_model_zoo.md)
-- [Object Detection using Jacinto-AI-MMDetection Main Page](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-mmdetection/browse)
-- [Quantization Aware Training with Jacinto-AI-MMDetection](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-mmdetection/browse/docs/jacinto_ai/quantization_aware_training.md)
-
-**PyTorch-Jacinto-AI-DevKit** - Image Classification, Pixel2Pixel Prediction (Semantic Segmentation, Depth Estimation etc) & Quantization
-- [**PyTorch-Jacinto-AI-DevKit Model Zoo**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-devkit/browse/docs/Semantic_Segmentation.md)
-- [PyTorch-Jacinto-AI-DevKit Main Page](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-devkit/browse/)
-- [Quantization Aware Training with PyTorch-Jacinto-AI-DevKit](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-devkit/browse/docs/Quantization.md)
-
 ### Submodules
 
 Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)<br>
@@ -53,7 +37,9 @@ Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/)<br>
 
-- **Jacinto-AI-MMDetection**: PyTorch based **Object Detection** training - **(coming soon...)**. In the mean while you can train the SSD Object detector using [mmdetection](https://github.com/open-mmlab/mmdetection) and provide the model to Jacinto7 TIDL in a format that it specifies.<br>
+- **PyTorch-Jacinto-AI-Detection**: PyTorch based **Object Detection** training/quantization<br>
+-- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse)<br>
+-- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse)<br>
 
 - **TensorFlow2.0** based quantization examples - **(coming later...)**.<br>
 
@@ -69,6 +55,21 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 - **acf-jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)<br>
 -- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
+
+
+### Model Zoo
+
+We are in the process of building an Model Zoo that hosts **training/quantization/inference examples** and **models** that are optimized for **speed, accuracy & fixed point quantization**. 
+
+Start by browsing through the following sections.
+
+**PyTorch-Jacinto-AI-DevKit** - Image Classification, Pixel2Pixel Prediction (Semantic Segmentation, Depth Estimation, Multi Task etc)
+- [**PyTorch-Jacinto-AI-DevKit Model Zoo**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/) - please navigate from the links in that page.
+- [Quantization Aware Training with PyTorch-Jacinto-AI-DevKit](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md)
+
+**PyTorch-Jacinto-AI-MMDetection** - Object Detection 
+- [**Jacinto-AI-MMDetection Model Zoo**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse/docs/jacinto_ai_detection_model_zoo.md)
+- [Quantization Aware Training in PyTorch-Jacinto-AI-Detection](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse/docs/jacinto_ai_quantization_aware_training.md)
 
 
 ### Notes: 
