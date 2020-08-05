@@ -2,8 +2,8 @@
 Training & Quantization Tools For Embedded AI Development.
 
 ###### Notice: 
-- 2020 August 04: We do not use *git submodule* anymore. You can clone or update the repositories mentioned in the **Repositories** section below by *git clone* or *git pull*.
-- 2020 June 15: **Our internal URLs changed**. If you cloned the repository before this date please do a fresh clone to avoid confusion. Without this, doing a ./git_submodule_update.sh may appear to succeed, but may not be actually updating the submodules.
+- [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links for more information.
+- [2020-August-05]: We do not use *git submodule* anymore. You can clone or update the repositories mentioned in the **Repositories** section below by *git clone* or *git pull*.
 - This is our main documentation landing page, please add this link to your browser's favourites: [https://github.com/TexasInstruments/jacinto-ai-devkit](https://github.com/TexasInstruments/jacinto-ai-devkit)
 - **Issue Tracker for jacinto-ai-devkit:** You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit). While creating a new issue kindly include **jacinto-ai-devkit** in the tags (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
 - **Issue Tracker for TIDL:** [https://e2e.ti.com/support/processors/f/791/tags/TIDL](https://e2e.ti.com/support/processors/f/791/tags/TIDL). Please include the tag **TIDL** (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
@@ -15,19 +15,11 @@ Embedded AI, especially Embedded Inference of Deep Learning models is quite chal
 
 **Several of these models have been verified to work on [TI's Jacinto Automotive Processors](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html)**. These tools and software are primarily intended as examples for learning and research.  
 
-### Documentation
-Detailed documentation is provided for each of the components. Please browse using links provided in the "Submodules" section below.
 
-### Obtaining the code
-After cloning this repository, execute the following command to pull the submodules.
-```
-./git_submodule_init.sh
-```
-Execute the following command to pull/update the submodules to get the latest changes. Note: do this once in a week or so to get the latest, as we update our submodules frequently.
-```
-./git_submodule_update.sh
-```
-If there is any issue with the above script, you can use the URLs given below to manually clone/pull the respositories.
+### Obtaining the code & Documentation
+The next section lists several repositories. Each repository has a documentation page and a separate summary page containing git clone/pull URLs. 
+
+Please browse those links to read the documentation as well as to get the git URLs for cloning the repositories.
 
 
 ### Repositories
@@ -37,9 +29,9 @@ Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/)<br>
 
-- **PyTorch-Jacinto-AI-Detection**: PyTorch based **Object Detection** training/quantization<br>
--- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse)<br>
--- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse)<br>
+- **PyTorch-MMDetection**: PyTorch based **Object Detection** training/quantization<br>
+-- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-mmdetection/about/)<br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-mmdetection/)<br>
 
 - **TensorFlow2.0** based quantization examples - **(coming later...)**.<br>
 
@@ -59,17 +51,7 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 
 ### Model Zoo
 
-We are in the process of building an Model Zoo that hosts **training/quantization/inference examples** and **models** that are optimized for **speed, accuracy & fixed point quantization**. 
-
-Start by browsing through the following sections.
-
-**PyTorch-Jacinto-AI-DevKit** - Image Classification, Pixel2Pixel Prediction (Semantic Segmentation, Depth Estimation, Multi Task etc)
-- [**PyTorch-Jacinto-AI-DevKit Model Zoo**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/) - please navigate from the links in that page.
-- [Quantization Aware Training with PyTorch-Jacinto-AI-DevKit](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md)
-
-**PyTorch-Jacinto-AI-MMDetection** - Object Detection 
-- [**Jacinto-AI-MMDetection Model Zoo**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse/docs/jacinto_ai_detection_model_zoo.md)
-- [Quantization Aware Training in PyTorch-Jacinto-AI-Detection](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytorch-jacinto-ai-detection/browse/docs/jacinto_ai_quantization_aware_training.md)
+We are in the process of building an Model Zoo that hosts trained **models** that are optimized for **speed & accuracy**. For now, the above documentation links of individual repositories have information about some trained models and the accuracy obtained. 
 
 
 ### Notes: 
@@ -78,11 +60,18 @@ Start by browsing through the following sections.
 - For example, the **about** tab shows documentation. The **summary** tab lists all the branches, commit information and links for cloning that repository (i.e. if you would like to directly clone without using the above submodule command).
 
 
-### What is New: 
-- [2020-Jan-28] pytorch-jacinto-ai-devkit: Documentation and results for Depth Estimation has been added.<br>
-- [2020-Jan-06] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.
+### What is New:
+- [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links for more information.
+
+- [2020-August-05]: We do not use *git submodule* anymore. You can clone or update the repositories mentioned in the **Repositories** section below by *git clone* or *git pull*.
+
+- [2020-June-15]: **Our internal URLs changed**. If you cloned the repository before this date please do a fresh clone to avoid confusion. Without this, doing a ./git_submodule_update.sh may appear to succeed, but may not be actually updating the submodules.
+
+- [2020-January-28] pytorch-jacinto-ai-devkit: Documentation and results for Depth Estimation has been added.<br>
+
+- [2020-January-06] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.
 
 
 ### License
 
-Please see the [LICENSE](./LICENSE) file for more information about the license under which this repository is made available. The LICENSE file of each submodule is inside that submodule.
+Please see the [LICENSE](./LICENSE) file for more information about the license under which this landing repository is made available. The LICENSE file of each repository mentioned here is inside that repository.
