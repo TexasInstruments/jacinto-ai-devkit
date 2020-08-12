@@ -55,9 +55,9 @@ We are in the process of building an Model Zoo that hosts trained **models** tha
 
 
 ### Notes: 
-- **Each of those submodules have detailed documentation and separate LICENSE files.** Click on the links to open the documentation. 
 - If you click on one of the links above - it will navigate to a repository hosted in **https://git.ti.com/jacinto-ai**. From there, you can click on one of the tabs to get more information on that repository. 
-- For example, the **about** tab shows documentation. The **summary** tab lists all the branches, commit information and links for cloning that repository (i.e. if you would like to directly clone without using the above submodule command).
+- For example, the **about** tab shows documentation. The **summary** tab lists all the branches, commit information and links for git clone/pull that repository.
+- Each of those repositories also have separate LICENSE files. 
 
 
 ### What is New:
