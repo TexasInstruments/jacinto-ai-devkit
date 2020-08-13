@@ -1,3 +1,7 @@
 .idea
 .vscode
+dependencies
+modelhub/datasets
+modelhub/modelzoo
+modelhub/work_dirs
 

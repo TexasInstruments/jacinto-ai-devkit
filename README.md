@@ -49,9 +49,9 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
 
 
-### Model Zoo
+### Model Hub / Model Zoo
 
-We are in the process of building an Model Zoo that hosts trained **models** that are optimized for **speed & accuracy**. For now, the above documentation links of individual repositories have information about some trained models and the accuracy obtained. 
+We are building a Model Hub / Model Zoo with several trained **models** that are optimized for **speed & accuracy**. Please visit [Jacinto AI Model Hub](./modelhub/modelhub.md) for more information.
 
 
 ### Notes: 
