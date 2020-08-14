@@ -1,7 +1,6 @@
 .idea
 .vscode
-dependencies
-modelhub/datasets
-modelhub/modelzoo
+modelhub/dependencies/*
+!modelhub/dependencies/examples/
 modelhub/work_dirs
 
