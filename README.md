@@ -2,7 +2,7 @@
 Training & Quantization Tools For Embedded AI Development.
 
 ###### Notice: 
-- [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links for more information.
+- [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links below for more information.
 - [2020-August-05]: We do not use *git submodule* anymore. You can clone or update the repositories mentioned in the **Repositories** section below by *git clone* or *git pull*.
 - This is our main documentation landing page, please add this link to your browser's favourites: [https://github.com/TexasInstruments/jacinto-ai-devkit](https://github.com/TexasInstruments/jacinto-ai-devkit)
 - **Issue Tracker for jacinto-ai-devkit:** You can file issues or ask questions at **e2e**: [https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit](https://e2e.ti.com/support/processors/f/791/tags/jacinto_2D00_ai_2D00_devkit). While creating a new issue kindly include **jacinto-ai-devkit** in the tags (as you create a new issue, there is a space to enter tags, at the bottom of the page). 
@@ -21,6 +21,13 @@ The next section lists several repositories. Each repository has a documentation
 
 Please browse those links to read the documentation as well as to get the git URLs for cloning the repositories.
 
+### Benchmark / Model Hub / Model Zoo
+
+We are building a Benchamrk / Model Hub / Model Zoo with several trained **models** that are optimized for **speed & accuracy**. Please visit [PyTIDL Benchmark & Model Hub](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/pytidl-benchmark/browse) for more information.
+
+This benchmark / model hub provides provides tutorials, examples and scripts for model import, model inferencing, accuracy benchamrk and performance estimation.
+
+The model hub also provides scripts for doing accuracy benchmark on public models as well as internally trained models hosted at the [Jacinto AI Model Zoo](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)
 
 ### Repositories
 
@@ -47,11 +54,6 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 - **acf-jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)<br>
 -- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
-
-
-### Model Hub / Model Zoo
-
-We are building a Model Hub / Model Zoo with several trained **models** that are optimized for **speed & accuracy**. Please visit [Jacinto AI Model Hub](./modelhub/modelhub.md) for more information.
 
 
 ### Notes: 
