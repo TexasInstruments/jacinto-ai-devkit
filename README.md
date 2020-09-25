@@ -34,15 +34,15 @@ Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www
 - **TensorFlow2.0** based quantization examples - **(coming later...)**.<br>
 
 Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g. (TDA2x, TDA3x). These older modules are not included as submodules in this repo, but can be obtained using the links below.<br>
-- **caffe-jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models.<br>
+- **Caffe-Jacinto**: Our Caffe fork for training sparse CNN models including Object Detection and Semantic Segmentation models.<br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto/)<br>
 
-- **caffe-jacinto-models**: Scripts and examples for training sparse CNN models for Image Classification, Object Detection and Semantic Segmentation.<br>
+- **Caffe-Jacinto-Models**: Scripts and examples for training sparse CNN models for Image Classification, Object Detection and Semantic Segmentation.<br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/caffe-jacinto-models/)<br>
 
-- **acf-jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)<br>
+- **Acf-Jacinto** - training tool for HOG/ACF/AdaBoost Object Detector (traditional machine learning based)<br>
 -- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
 
@@ -52,7 +52,7 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 -- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)<br>
 -- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)<br>
 
-- **Jacinto AI Benchmark** - The benchmark repository provides scripts for doing fixed point accuracy benchmark on PC. This accuracy is expected to closely match what can be obtained on device. This also serves as examples for choosing the right configuration parameters for various models. We also list accuracy benchmark results for several models.<br>
+- **Jacinto-AI-Benchmark** - The benchmark repository provides scripts for doing fixed point accuracy benchmark on PC. This accuracy is expected to closely match what can be obtained on device. This also serves as examples for choosing the right configuration parameters for various models. We also list accuracy benchmark results for several models.<br>
 -- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-benchmark/browse)<br>
 -- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-benchmark/browse)<br>
 
