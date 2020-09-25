@@ -66,11 +66,11 @@ We eventually plan to make the the benchmark repository be able to download the 
 
 
 ## What is New:
-- [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links for more information.<br>
-- [2020-August-05]: We do not use *git submodule* anymore. You can clone or update the repositories mentioned in the **Repositories** section below by *git clone* or *git pull*.<br>
-- [2020-June-15]: **Our internal URLs changed**. If you cloned the repository before this date please do a fresh clone to avoid confusion. Without this, doing a ./git_submodule_update.sh may appear to succeed, but may not be actually updating the submodules.<br>
-- [2020-January-28] pytorch-jacinto-ai-devkit: Documentation and results for Depth Estimation has been added.<br>
-- [2020-January-06] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.<br>
+- [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links for more information.
+- [2020-August-05]: We do not use *git submodule* anymore. You can clone or update the repositories mentioned in the **Repositories** section below by *git clone* or *git pull*.
+- [2020-June-15]: **Our internal URLs changed**. If you cloned the repository before this date please do a fresh clone to avoid confusion. Without this, doing a ./git_submodule_update.sh may appear to succeed, but may not be actually updating the submodules.
+- [2020-January-28] pytorch-jacinto-ai-devkit: Documentation and results for Depth Estimation has been added.
+- [2020-January-06] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.
 
 
 ## License
