@@ -12,18 +12,20 @@ Training & Quantization Tools, Model Zoo & Accuracy Benchmarks For Embedded AI D
 ## Introduction
 Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. This repository provides various **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. We show several **low complexity** Deep Learning models that make  Inference on Low Power Embedded Platforms practical. We also have examples for **Quantization Aware Training** for 8-bit fixed point inference.
 
-Several of these models have been verified to work on [**TI's Jacinto Automotive Processors**](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html). These tools and software are primarily intended as examples for learning and research.  
+Several of the Deep Learning models described in these repositories have been verified to work on [**TI's Jacinto Automotive Processors**](http://www.ti.com/processors/automotive-processors/tdax-adas-socs/overview.html) using [TI Deep Learning Library (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/sdk_components.html#ti-deep-learning-library-tidl) that is part of [Processor SDK RTOS for Jacinto7](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/index.html). 
+
+These tools and software are primarily intended as examples for learning and research.  
 
 Jacinto AI DevKit consists of two parts: <br>
 1. Training Repositories <br>
-2. Model Zoo (Trained Models) & Accuracy Benchmark <br>
+2. Model Zoo (Trained Models)
 
 Each repository listed below has a documentation page and a separate summary page containing git clone/pull URLs. Please browse those links to read the documentation as well as to get the git URLs for cloning the repositories. This github repository does not contain any code, but has links that point to the actual repositories containing code. 
 
 
 ## Training Repositories
 Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)<br>
-- **Pytorch-Jacinto-AI-DevKit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and **Quantization Aware Training**.<br>
+- **Pytorch-Jacinto-AI-DevKit**: PyTorch based training of Image Classification, Semantic Segmentation, Depth Estimation, Motion Segmentation and various other Pixel2Pixel tasks, Multi-Task Learning and [Quantization Aware Training](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md).<br>
 -- Documentation: [**link**](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/)<br>
 
@@ -47,16 +49,11 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
 
 
-## Model Zoo & Accuracy Benchmark
+## Model Zoo
+Model Zoo provides trained models for various Deep Learning Tasks. We also provide quantized accuracies measured using [TI Deep Learning Library (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/sdk_components.html#ti-deep-learning-library-tidl).  
 - **Jacinto-AI-ModelZoo** - Collection of several trained models that are optimized for **speed & accuracy**.<br>
 -- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)<br>
 -- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)<br>
-
-- **Jacinto-AI-Benchmark** - The benchmark repository provides scripts for doing fixed point accuracy benchmark on PC. This accuracy is expected to closely match what can be obtained on device. This also serves as examples for choosing the right configuration parameters for various models. We also list accuracy benchmark results for several models.<br>
--- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-benchmark/browse)<br>
--- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-benchmark/browse)<br>
-
-We eventually plan to make the the benchmark repository be able to download the required models automatically from the Model Zoo -  at that point the Model Zoo repository need be cloned at all - but for now, both of these repositories need to be cloned to run the benchmarks.
 
 
 ## Notes: 
