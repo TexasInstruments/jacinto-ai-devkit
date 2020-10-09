@@ -11,6 +11,7 @@ Training & Quantization Tools, Model Zoo & Accuracy Benchmarks For Embedded AI D
 
 <hr>
 
+
 ## Introduction
 Embedded Inference of Deep Learning models is quite challenging - due to high compute requirements. This repository provides various **tools for AI**, including Deep Learning, traditional Machine Learning and Computer Vision. We show several **low complexity** Deep Learning models that make  Inference on Low Power Embedded Platforms practical. We also have examples for **Quantization Aware Training** for 8-bit fixed point inference.
 
@@ -18,13 +19,10 @@ Several of the Deep Learning models described in these repositories have been ve
 
 These tools and software are primarily intended as examples for learning and research.  
 
-Jacinto AI DevKit consists of two parts: <br>
-1. Training Repositories <br>
-2. Model Zoo (Trained Models)
-
 Each repository listed below has a documentation page and a separate summary page containing git clone/pull URLs. Please browse those links to read the documentation as well as to get the git URLs for cloning the repositories. This github repository does not contain any code, but has links that point to the actual repositories containing code. 
 
 <hr>
+
 
 ## Training Repositories
 Deep Learning Examples for Jacinto7 family of devices - e.g. [TDA4VM](http://www.ti.com/product/TDA4VM)<br>
@@ -51,32 +49,26 @@ Deep Learning and Traditional ML examples for Jacinto 6 family of devices - e.g.
 -- Documentation: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/about/)<br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/acf-jacinto/)<br>
 
-
 <hr>
 
-## Model Zoo
-Model Zoo provides trained models for various Deep Learning Tasks. We also provide quantized accuracies measured using [TI Deep Learning Library (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/sdk_components.html#ti-deep-learning-library-tidl).  
-- **Jacinto-AI-ModelZoo** - Collection of several trained models that are optimized for **speed & accuracy**.<br>
--- Documentation: [**link**](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)<br>
--- git clone/pull URLs: [link](https://bitbucket.itg.ti.com/projects/JACINTO-AI/repos/jacinto-ai-modelzoo/browse)<br>
-
-
-<hr>
 
 ## Model Quantization
-- Quantization (especially 8-bit Quantization) is important to get best throughput for inference. Quantization can be done using either **Post Training Quantization (PTQ)** or **Quantization Aware Training (QAT)**.
-- [TI Deep Learning Library (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/sdk_components.html#ti-deep-learning-library-tidl) that is part of the [Processor SDK RTOS for Jacinto7](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/index.html) natively supports PTQ. 
-- For the models that have significant accuracy drop, it is possible to improve the accuracy using **Quantization Aware Training (QAT)**. Please read more about QAT at [pytorch-jacinto-ai-devkit](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about) and its **[quantization documentation](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md)**.
+Quantization (especially 8-bit Quantization) is important to get best throughput for inference. Quantization can be done using either **Post Training Quantization (PTQ)** or **Quantization Aware Training (QAT)**.
+
+[TI Deep Learning Library (TIDL)](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/sdk_components.html#ti-deep-learning-library-tidl) that is part of the [Processor SDK RTOS for Jacinto7](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/psdk_rtos_auto/docs/user_guide/index.html) natively supports PTQ - TIDL can take floating point models and can quantize them using advanced calibration methods. 
+
+We have  guidelines on how to choose models and how train them to get best accuracy with Quantization. It is unlikely that there will be significant accuracy drop with **PTQ** if these guidelines are followed. In spite of this, if there are models that have significant accuracy drop with quantization, it is possible to improve the accuracy using **QAT**. Please read more details in the [pytorch-jacinto-ai-devkit](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about) and its documentation on **[Quantization](https://git.ti.com/cgit/jacinto-ai/pytorch-jacinto-ai-devkit/about/docs/Quantization.md)**.
 
 <hr>
+
 
 ## Notes: 
 - If you click on one of the links above - it will navigate to a repository hosted in **https://git.ti.com/jacinto-ai**. From there, you can click on one of the tabs to get more information on that repository. 
 - For example, the **about** tab shows documentation. The **summary** tab lists all the branches, commit information and links for git clone/pull that repository.
 - Each of those repositories also have separate LICENSE files. 
 
-
 <hr>
+
 
 ## What is New:
 - [2020-August-05] **pytorch-mmdetection** is made available with several training/quantization/evaluation examples for object detection. See the links for more information.
@@ -85,8 +77,8 @@ Model Zoo provides trained models for various Deep Learning Tasks. We also provi
 - [2020-January-28] pytorch-jacinto-ai-devkit: Documentation and results for Depth Estimation has been added.
 - [2020-January-06] pytorch-jacinto-ai-devkit: Quantization documentation is updated. Trained Quantization using QuantTrainModule is now the recommended method of doing Quantization Aware Training and the use of QuantCalibrateModule is discouraged.
 
-
 <hr>
+
 
 ## License
 Please see the [LICENSE](./LICENSE) file for more information about the license under which this landing repository is made available. The LICENSE file of each repository mentioned here is inside that repository.
