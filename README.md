@@ -29,7 +29,12 @@ Each repository listed below has a documentation page and a separate summary pag
 -- Documentation: [**link**](http://git.ti.com/cgit/jacinto-ai/jacinto-ai-modelzoo/about/) <br>
 -- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-modelzoo/) <br>
 
-- **Jacinto-AI-Benchmark**: Accuracy benchmarking of Deep Learning models is a difficult task. We make it easy for our platform with a Python package that runs on PC as well as on our EVM. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code. Accuracy benchmark of custom models can also be done easily with just a few lines of code. **(coming soon...)**. <br>
+- **Jacinto-AI-Benchmark**: Accuracy benchmarking of Deep Learning models is a difficult task. We make it easy for our platform with a Python package that runs on PC as well as on our EVM. The pre-trained models in our Model Zoo are supported off-the-shelf in this benchmark code. Accuracy benchmark of custom models can also be done easily with just a few lines of code. <br>
+-- Documentation: [**link**](http://git.ti.com/cgit/jacinto-ai/jacinto-ai-benchmark/about/) <br>
+-- git clone/pull URLs: [link](https://git.ti.com/cgit/jacinto-ai/jacinto-ai-benchmark/) <br>
+
+- **Pre-Imported/Compiled Model Artifacts**: This package provides Pre-Imported/Compiled Model Artifacts created using Jacinto-AI-ModelZoo and Jacinto-AI-Benchmark repositories. These artifacts can be used in multiple ways: (1) [Jypyter Notebook examples in TIDL](https://software-dl.ti.com/jacinto7/esd/processor-sdk-rtos-jacinto7/latest/exports/docs/tidl_j7_02_00_00_07/ti_dl/docs/user_guide_html/md_tidl_notebook.html) (2) For inference/benchmark in the above Jacinto-AI-Benchmark repository (3) Other platforms (to be announced) <br>
+-- Documentation & download: [**link**](https://software-dl.ti.com/jacinto7/esd/modelzoo/latest/docs/html/index.html) <br>
 
 
 ## Training Repositories
